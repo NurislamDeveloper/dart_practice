@@ -1,16 +1,16 @@
 // void main () {
-//   for (int number = 0;number <= 100;number++) {
-     /// initialization; condition; increment/decrement
+//   for (int number = 0;number <=10;number++) {
+//      // initialization; condition; increment/decrement
+//      print('Hello World' '  ' "$number");
 //   }
 // }
-// void main() {
-//   for (int i = 1; i >= 1; i++) {
-//     print(i);
-//   }
-// }
+
 // void  main() {
 // List <String> players = ['Messi','Ronaldo','Neimar'];
-//  players.forEach((player) { print(player);});
+// //  players.forEach((player) { print(player);});
+// for (String player in players){
+//   print(player);
+// }
  
 // }
 // for( String player in players) {
@@ -23,11 +23,10 @@
 //     first++;
 //   }
 // }
-// void main () {
-//   int  number = 10;
-//   do {
-//     print( "be patient don't impatient" '$number');
-//     number++;
-//   }while(number< 40 );
-   
-// }
+void main () {
+  int  number = 10;
+  do {
+    print( "hello" '$number');
+    number++;
+  }while(number< 40 );
+}
